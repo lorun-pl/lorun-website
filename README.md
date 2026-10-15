@@ -1,20 +1,33 @@
 # Strona LORUN
 
+Statyczna strona HTML/CSS. Bez frameworka, instalacji zależności i etapu kompilacji.
+
 ## Struktura
 
-- `index.html` — strona główna
-- `kariera/index.html` — lista ofert pracy
-- `kariera/asystent-projektanta-cad/index.html`
-- `kariera/mlodszy-inzynier-projektu/index.html`
-- `kariera/inzynier-projektu/index.html`
-- `assets/` — logo, favicon i wspólny arkusz CSS
-- `CNAME` — domena dla GitHub Pages
+- `index.html` — Start, O nas, Czym się zajmujemy, Kariera, Kontakt i istniejąca sieć współpracy.
+- `kariera/index.html` — dwie aktywne rekrutacje.
+- `kariera/kierownik-techniczny-projektow/index.html` — Kierownik techniczny projektów – stolarka okienna i drzwiowa | język niemiecki.
+- `kariera/project-manager-innovation-manager-pl-de/index.html` — Project Manager / Innovation Manager PL-DE.
+- Wcześniejsze oferty w `asystent-projektanta-cad`, `mlodszy-inzynier-projektu` i `inzynier-projektu` zachowują adresy oraz opisy jako archiwum: komunikat o zakończeniu, bez aplikowania i z `noindex, follow`. Nie są na liście aktywnych ofert ani w sitemapie.
+- `assets/` — niezmienione logo, favicon, logotypy partnerów i wspólny arkusz CSS.
+- `404.html` — strona błędu, zasoby i nawigacja z bezwzględnymi ścieżkami.
+- `CNAME` — istniejąca domena GitHub Pages.
+- `lorun-strona-github-v2-partnerzy.zip` — paczka statycznej strony, zsynchronizowana z aktualnymi plikami publicznymi, aby nie rozpowszechniać nieaktualnych ofert i kontaktu.
 
-Logo jest osadzone jako zwykły element `<img>` i nie prowadzi do żadnego adresu.
+Logo w nagłówku prowadzi do strony głównej. Zachowano paletę, typografię, sieć współpracy i Cloudflare Web Analytics.
 
-## Publikacja na GitHub Pages
+## Kontakt
 
-Wgraj całą zawartość katalogu do głównego katalogu repozytorium. GitHub Pages powinien publikować gałąź `main` z katalogu `/ (root)`.
+Publiczny telefon: **500 503 114** (`tel:+48500503114`). E-mail: **info@lorun.pl**.
 
-## Aktualizacja: sieć współpracy
-Na stronie głównej dodano sekcję z logotypami RIWECO GmbH, KAZI Aussenanlagen, Sephastian-Bau i FENIQ. Pliki znajdują się w `assets/partners/`.
+**Adres biura / miejsce pracy:** LORUN Sp. z o.o., Krasne 165, 36-007 Krasne. Nie jest to deklaracja adresu rejestrowego spółki. W danych strukturalnych adres opisuje lokalizację biura.
+
+## Publikacja i kontrola
+
+Repozytorium publikuje `main` z katalogu głównego przez GitHub Pages. Historia Actions potwierdza automatyczne publikacje. Zmiany należy przygotowywać na osobnej gałęzi i scalać dopiero po zatwierdzeniu właściciela.
+
+Repozytorium nie ma konfiguracji własnego CI, testów, lintera, typecheck ani preview deploymentu. Nie wymaga builda. Do podglądu wystarczy dowolny serwer statyczny uruchomiony z katalogu repozytorium, np. `python -m http.server 4173`.
+
+Przed publikacją sprawdź wszystkie strony i linki lokalne, kotwice, `tel:`, `mailto:`, metadane, sitemapę i archiwizację. Obejrzyj desktop oraz mobile. Sprawdź pliki tekstowe i zawartość ZIP pod kątem nieaktualnych kontaktów. Po zmianie plików publicznych odśwież również ZIP. Nie dodawaj do niego historii Git ani narzędzi lokalnych.
+
+Warunki kierownika: pełny etat, umowa o pracę, 22 000–28 000 zł brutto miesięcznie + premia. Dla stanowiska Project Manager / Innovation Manager nie zadeklarowano wynagrodzenia ani rodzaju umowy. Treści obu ofert i strony głównej wdrożono według uwag właściciela z 16.10.2026.
