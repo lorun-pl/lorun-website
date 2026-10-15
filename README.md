@@ -6,7 +6,7 @@ Statyczna strona HTML/CSS. Bez frameworka, instalacji zależności i etapu kompi
 
 - `index.html` — Start, O nas, Czym się zajmujemy, Kariera, Kontakt i istniejąca sieć współpracy.
 - `kariera/index.html` — dwie aktywne rekrutacje.
-- `kariera/kierownik-technicznej-realizacji-projektow/index.html` — Kierownik Technicznej Realizacji Projektów.
+- `kariera/kierownik-techniczny-projektow/index.html` — Kierownik techniczny projektów – stolarka okienna i drzwiowa | język niemiecki.
 - `kariera/project-manager-innovation-manager-pl-de/index.html` — Project Manager / Innovation Manager PL-DE.
 - Wcześniejsze oferty w `asystent-projektanta-cad`, `mlodszy-inzynier-projektu` i `inzynier-projektu` zachowują adresy oraz opisy jako archiwum: komunikat o zakończeniu, bez aplikowania i z `noindex, follow`. Nie są na liście aktywnych ofert ani w sitemapie.
 - `assets/` — niezmienione logo, favicon, logotypy partnerów i wspólny arkusz CSS.
@@ -14,7 +14,7 @@ Statyczna strona HTML/CSS. Bez frameworka, instalacji zależności i etapu kompi
 - `CNAME` — istniejąca domena GitHub Pages.
 - `lorun-strona-github-v2-partnerzy.zip` — paczka statycznej strony, zsynchronizowana z aktualnymi plikami publicznymi, aby nie rozpowszechniać nieaktualnych ofert i kontaktu.
 
-Logo pozostaje zwykłym elementem obrazu. Zachowano paletę, typografię, sieć współpracy i Cloudflare Web Analytics.
+Logo w nagłówku prowadzi do strony głównej. Zachowano paletę, typografię, sieć współpracy i Cloudflare Web Analytics.
 
 ## Kontakt
 
@@ -30,4 +30,4 @@ Repozytorium nie ma konfiguracji własnego CI, testów, lintera, typecheck ani p
 
 Przed publikacją sprawdź wszystkie strony i linki lokalne, kotwice, `tel:`, `mailto:`, metadane, sitemapę i archiwizację. Obejrzyj desktop oraz mobile. Sprawdź pliki tekstowe i zawartość ZIP pod kątem nieaktualnych kontaktów. Po zmianie plików publicznych odśwież również ZIP. Nie dodawaj do niego historii Git ani narzędzi lokalnych.
 
-Warunki finansowe, forma umowy i praca zdalna nowych ról nie są deklarowane bez zatwierdzonej treści.
+Warunki kierownika: pełny etat, umowa o pracę, 22 000–28 000 zł brutto miesięcznie + premia. Dla stanowiska Project Manager / Innovation Manager nie zadeklarowano wynagrodzenia ani rodzaju umowy. Treści obu ofert i strony głównej wdrożono według uwag właściciela z 16.10.2026.

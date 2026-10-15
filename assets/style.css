@@ -600,3 +600,17 @@ section[id] { scroll-margin-top: 24px; }
   .job-card { transition: none; }
   .job-card:hover, .btn-primary:hover { transform: none; }
 }
+/* Final approved copy and compact application panel. */
+.site-logo-link { display: block; width: fit-content; }
+.about-copy { max-width: 620px; }
+.section-header .about-copy p + p { margin-top: 18px; }
+.job-header-final h1 { font-size: clamp(2.1rem, 4.3vw, 4rem); }
+.job-terms { margin: 24px 0 0; }
+.job-salary { margin: 12px 0 0; font-size: clamp(1.15rem, 2.2vw, 1.65rem); color: var(--text-strong); }
+.job-apply-card > .btn:first-child { margin-top: 0; }
+@media (max-width: 720px) {
+  .site-logo-link { margin-inline: auto; }
+  .job-header-final { padding-top: 32px; }
+  .job-header-final .breadcrumbs { font-size: .78rem; line-height: 1.5; }
+  .job-header-final h1 { font-size: clamp(1.85rem, 7.6vw, 3rem); }
+}
